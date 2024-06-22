@@ -31,14 +31,12 @@ static void	parse_input(std::string &input, t_notification &notif)
 {
 	size_t			start = 0;
 	size_t			end;
-	int				action;
 
 	end = input.find(",", start);
 	notif.offer.position = std::stoi(input.substr(start, end - start));
 	start = end + 1;
 	end = input.find(",", start);
-	action = std::stoi(input.substr(start, end - start));
-	notif.action = static_cast<t_action>(action);
+	notif.action = static_cast<t_action>(std::stoi(input.substr(start, end - start)));
 	start = end + 1;
 	end = input.find(",", start);
 	notif.offer.value = std::stod(input.substr(start, end - start));
@@ -61,7 +59,6 @@ static void	modify_offer(std::vector<t_offer> &offers, t_notification &notif)
 			return ;
 		}
 	}
-	offers.push_back(notif.offer);
 	return ;
 }
 
@@ -108,7 +105,7 @@ static void	sort_offers(std::vector<t_offer> &offers)
 static void	print_offers(std::vector<t_offer> &offers)
 {
 	for (size_t i = 0; i < offers.size(); i++)
-		std::cout << offers[i] << "\n";
+		std::cout << offers[i];
 	return ;
 }
 
