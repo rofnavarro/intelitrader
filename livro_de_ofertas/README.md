@@ -3,6 +3,8 @@
 
 # English
 
+# INTELITRADER CHALLENGE
+
 # Offer Management System
 
 This project is a simple C++ console application to manage offers. It supports inserting, modifying, and deleting offers based on notifications. The offers are sorted and re-positioned dynamically after each modification. The program reads the notifications from standard input, processes them, and outputs the final state of offers.
@@ -26,18 +28,18 @@ This project is a simple C++ console application to manage offers. It supports i
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/offer-management-system.git
-    cd offer-management-system
+    git clone git@github.com:rofnavarro/intelitrader.git
+    cd livro_de_ofertas
     ```
 
 2. **Compile the program:**
     ```sh
-    g++ -o offer_management main.cpp
+    g++ -o livro_de_ofertas main.cpp
     ```
 
 3. **Run the program:**
     ```sh
-    ./offer_management
+    ./livro_de_ofertas
     ```
 
 ## Usage
@@ -112,6 +114,8 @@ The final output is empty as all offers have been deleted.
 
 # Português
 
+# DESAFIO INTELITRADER
+
 # Sistema de Gerenciamento de Ofertas
 
 Este projeto é um aplicativo de console C++ simples para gerenciar ofertas. Ele suporta inserção, modificação e exclusão de ofertas com base em notificações. As ofertas são ordenadas e reposicionadas dinamicamente após cada modificação. O programa lê as notificações da entrada padrão, processa-as e imprime o estado final das ofertas.
@@ -134,18 +138,18 @@ Este projeto é um aplicativo de console C++ simples para gerenciar ofertas. Ele
 
 1. **Clone o repositório:**
     ```sh
-    git clone https://github.com/seuusuario/sistema-gerenciamento-ofertas.git
-    cd sistema-gerenciamento-ofertas
+    git clone git@github.com:rofnavarro/intelitrader.git
+    cd livro_de_ofertas
     ```
 
 2. **Compile o programa:**
     ```sh
-    g++ -o gerenciamento_ofertas main.cpp
+    g++ -o livro_de_ofertas main.cpp
     ```
 
 3. **Execute o programa:**
     ```sh
-    ./gerenciamento_ofertas
+    ./livro_de_ofertas
     ```
 
 ## Uso
