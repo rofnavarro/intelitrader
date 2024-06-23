@@ -18,7 +18,6 @@ This project is a simple C++ console application to manage offers. It supports i
 - [Code Explanation](#code-explanation)
 - [Example](#example)
 
-
 ## Prerequisites
 
 - A C++ compiler (e.g., `g++`)
@@ -186,7 +185,7 @@ O projeto contém os seguintes arquivos:
 - **`print_offers`**: Imprime as ofertas no formato requerido.
 - **`operator<<`**: Sobrecarga do operador `<<` para `t_offer` para imprimir seus detalhes.
 
-### Função Principal
+### Função Main
 
 - Lê o número de notificações.
 - Itera sobre cada notificação, processa-a e atualiza as ofertas de acordo.

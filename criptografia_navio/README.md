@@ -156,9 +156,9 @@ O projeto contém os seguintes arquivos:
 - **`invert_last_two_bits`**: Inverte os dois últimos bits de um byte.
 - **`swap_four_bits`**: Troca os quatro bits superiores e inferiores de um byte.
 
-### Função Principal
+### Função Main
 
-- A função principal:
+- A função main:
   1. Define a mensagem criptografada como uma string.
   2. Processa cada byte da mensagem:
      - Converte o byte de string para `std::bitset<8>`.
@@ -166,7 +166,6 @@ O projeto contém os seguintes arquivos:
      - Troca os quatro bits superiores e inferiores.
      - Converte o byte modificado de volta para um caractere e adiciona à saída.
   3. Imprime a mensagem descriptografada.
-
 
 ## Exemplo
 
