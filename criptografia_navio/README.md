@@ -5,7 +5,7 @@
 
 # INTELITRADER CHALLENGE
 
-# Bit Manipulation Decryption
+# Decryption Program
 
 This project is a C++ console application that performs bit manipulations to decrypt a message. It inverts the last two bits and swaps the upper four bits with the lower four bits of each byte of the encrypted message to generate the original message.
 
@@ -99,7 +99,7 @@ Decrypted Message: <decrypted message>
 
 # DESAFIO INTELITRADER
 
-# Descriptografia
+# Programa de Descriptografia
 
 Este projeto é um aplicativo de console C++ que realiza manipulações de bits para descriptografar uma mensagem. Ele inverte os dois últimos bits e troca os quatro bits superiores e inferiores de cada byte da mensagem criptografada para gerar a mensagem original.
 
