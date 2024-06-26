@@ -79,7 +79,7 @@ static void	sort_offers(std::vector<t_offer> &offers)
 {
 	for (size_t i = 0; i < offers.size(); i++)
 	{
-		for (size_t j = i + 1; j < offers.size(); j++)
+		for (size_t j = 0; j < offers.size(); j++)
 		{
 			if (offers[i].position > offers[j].position)
 			{
